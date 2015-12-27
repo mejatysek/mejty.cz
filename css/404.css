@@ -3,7 +3,6 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .cont,
@@ -23,9 +22,6 @@ body {
 /* Make the masthead heading the same height as the navigation */
 .header h1 {
   font-size: 8em;
-}
-.cont{
-  text-align: center;
 }
 /* Custom page footer */
 .footer {
@@ -70,5 +66,13 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .cont img {
+    display: block;
+    height: 100px;
+    width: auto;
   }
 }
